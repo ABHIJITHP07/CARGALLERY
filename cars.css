@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Righteous&family=Rubik+Microbe&family=Titan+One&display=swap');
+
+.back-video {
+    position: absolute;
+    width: 101%;
+    margin-left: -10px;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.section h4{
+    position: absolute;
+    text-align: right;
+    z-index: 1;
+    font-size: 30px;
+    color: yellow;
+    margin-top: -300px;
+    margin-right: -1800px;
+    text-shadow: 1px 0px 0px black;
+}
+.section h3{
+    position: absolute;
+    text-align: right;
+    z-index: 1;
+    font-size: 30px;
+    color: yellow;
+    margin-top: -240px;
+    margin-right: -1792px;
+    text-shadow: 1px 0px 0px black;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    z-index: 1;
+    margin: 15px;
+    color: rgb(139, 9, 13);
+    font-family: 'Titan One', cursive;
+    margin-top: -100px;
+    margin-left: -20px;
+    text-shadow: 8px 0px 0px black;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 88px;
+    z-index: 1;
+    margin: 10px;
+    color: rgb(232, 230, 216);
+    text-shadow: 5px 0px 0px black;
+    margin-left: -1055px;
+    margin-top: 160px;
+}
+
+.search {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    margin: 10px;
+    color: rgb(206, 218, 200);
+    margin-left: 450px;
+    margin-top: 38px;
+}
+#list{
+    width: 240px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 88px;
+    z-index: 1;
+    margin: 10px;
+    color: rgb(86, 211, 24);
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1065px;
+    border-radius: 5px;
+
+}
+
+.video-container {
+    position: absolute;
+    width: 99%;
+    height: 160%;
+    margin-top: -500px;
+}
+
+
+
+button {
+    width: 245px;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(10, 10, 11);
+}
+
+button:hover {
+    color: black;
+    background-color: yellow;
+}
+
+#h2 {
+    color: white;
+    text-align: center;
+}
+
+label {
+    color: yellow;
+}
+
+.parent {
+    height: 700px;
+    align-items: center;
+    padding: 12px;
+    position: absolute;
+    top: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col {
+    width: 25%;
+    height: 800px;
+    padding: 24px;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: rgba(12, 9, 14, 0.441);
+    color: white;
+    font-size: 27px;
+    border: black 3px solid;
+    border-radius: 20px;
+    margin: 10px;
+}
+.col:hover{
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+img {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: black 5px solid;
+    margin: -4px;
+}
+
+.small {
+    width: 145px;
+    height: 50px;
+    color: white;
+    background-color: rgb(172, 21, 21);
+    margin-left: 170px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.tiny {
+    width: 130px;
+    height: 50px;
+    color: white;
+    background-color: rgb(172, 21, 21);
+    margin-left: 260px;
+    border-radius: 40px;
+}
+body{
+    background-image: url("./images/cars2.png");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
